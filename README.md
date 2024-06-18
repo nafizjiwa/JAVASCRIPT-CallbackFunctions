@@ -1,17 +1,16 @@
 # JAVASCRIPT-CallbackFunctions
 
-|header|header|
-|----|----| 
-|||
 
-Functions are objects <br>
+Functions are `OBJECTS` <br>
 Objects can be passed into functions as parameters <br>
-SO, functions can pass as parmeters into functions and then called inside <br>
-A function that takes another function as a parameter and calls it inside is called a CALLBACK<br>
-The function passed in as a parameter to another function is a CALLBACK FUNCTION<br>
-JavaScript runs in sequence top down<br>
+SO, functions pass as parmeters into other functions and then called from inside <br>
+`CALLBACK` - A function that takes another function as a parameter and then called <br>
+A passed in function (as parameter) to another function is a CALLBACK FUNCTION<br>
+
+#####JavaScript runs in sequence top down<br>
 Sometimes JavaScript must run non sequencially but AFTER SOMETHING HAS HAPPENED. (or asynchronously) <br>
 Callbacks helps code run asychronously<br>
+
 #### Create a CallBack
 
 Eg. SetTimeout function is a callback function. Which calls a function after a certain amount of time has passed (or AFTER SOMETHING HAS HAPPENED) <br>
