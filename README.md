@@ -13,8 +13,9 @@ Callbacks helps code run asychronously<br>
 
 #### Create a CallBack
 
-Eg. SetTimeout function is a callback function. Which calls a function after a certain amount of time has passed (or AFTER SOMETHING HAS HAPPENED) <br>
-setTimeout(message,3000) ---> here the function message is being called afer 3s (3s is the AFTER SOMETHING ELSE HAS HAPPENED).
+Eg. SetTimeout function is a callback function.<br> 
+It calls a function after a certain amount of time has passed (AFTER SOMETHING HAS HAPPENED) <br>
+setTimeout(message, 3000) ---> Here, function message is called ater 3s (3s is the AFTER SOMETHING ELSE HAS HAPPENED).<br>
 
 ##### Anonymous function          function(){....code to execute}
 
@@ -26,6 +27,13 @@ setTimeout(message,3000) ---> here the function message is being called afer 3s 
       setTimeout(() => { 
           console.log("This message is shown after 3 seconds");
       }, 3000);
+##### Function expression
+
+     const message = function() {  
+          console.log("This message is shown after 3 seconds");
+      }
+ 
+      setTimeout(message, 3000);
 
 ##### JavaScript is event driven so we use callbacks functions for event declarations <br>
 
