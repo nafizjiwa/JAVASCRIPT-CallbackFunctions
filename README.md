@@ -1,7 +1,9 @@
 # JAVASCRIPT-CallbackFunctions
 
-Functions:
- 
+|header|header|
+|----|----| 
+|||
+
 Functions are objects <br>
 Objects can be passed into functions as parameters <br>
 SO, functions can pass as parmeters into functions and then called inside <br>
